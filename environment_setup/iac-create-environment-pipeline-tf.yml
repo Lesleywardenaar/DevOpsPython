@@ -15,7 +15,7 @@ pr:
     - environment_setup/tf-templates/*
 
 pool:
-  name: {agent pool name}
+  name: Default
   demands: Limit -equals DisAbleParallel 
   vmImage: 'ubuntu-latest'
 
